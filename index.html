@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+        <!-- МЕТА -->
+        <title>Maxim Tikachev | Test</title>
+
+        <!-- Моды -->
+        <link rel="stylesheet" href="assets/css/normalize.css" />
+
+        <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css" />
+
+        <link rel="stylesheet" href="/assets/css/owl.carousel.min.css" />
+        <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css" />
+
+        <!-- Мои стили -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+
+    <body>
+        <div class="popup__overlay popup--hidden" id="popup-notice">
+            <div class="popup">
+                <div class="popup-header">
+                    <p class="popup-header__title">
+                        Ваша заметка о кандидате
+                    </p>
+                </div>
+                <form action="" class="popup-main">
+                    <textarea class="popup-main__input" name="resume-notice" id="resume-notice" placeholder="Введите текст..."></textarea>
+                    <div class="popup-main-buttons">
+                        <button class="popup__button popup__close">
+                            Отмена
+                        </button>
+                        <button type="submit" class="popup__button popup__sent">
+                            Сохранить
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="popup__overlay popup--hidden" id="popup-slider">
+            <div class="popup popup-slider">
+                <div class="popup-close">
+                    <svg viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.5737 0.426316C17.8579 0.710528 18 1.06579 18 1.49211C18 1.91842 17.8579 2.27368 17.5737 2.55789L11.1316 9L17.5737 15.4421C17.8579 15.7263 18 16.0816 18 16.5079C18 16.9342 17.8579 17.2895 17.5737 17.5737C17.2895 17.8579 16.9342 18 16.5079 18C16.0816 18 15.7263 17.8579 15.4421 17.5737L9 11.1316L2.55789 17.5737C2.27368 17.8579 1.91842 18 1.49211 18C1.06579 18 0.710528 17.8579 0.426316 17.5737C0.142104 17.2895 0 16.9342 0 16.5079C0 16.0816 0.142104 15.7263 0.426316 15.4421L6.86842 9L0.426316 2.55789C0.142104 2.27368 0 1.91842 0 1.49211C0 1.06579 0.142104 0.710528 0.426316 0.426316C0.710528 0.142104 1.06579 0 1.49211 0C1.91842 0 2.27368 0.142104 2.55789 0.426316L9 6.86842L15.4421 0.426316C15.7263 0.142104 16.0816 0 16.5079 0C16.9342 0 17.2895 0.142104 17.5737 0.426316Z" />
+                    </svg>
+
+                    <p class="popup-close__counter d-sm-none"><span>4</span> / <span>7</span></p>
+                </div>
+                <div class="popup__slider">
+                    <div class="owl-carousel slide-two">
+                        <div class="popup__slider__item" data-hash="one">
+                            <div class="popup__slider__item__img">
+                                <img src="/assets/img/resume/portfolio/1.jpg" class="d-none d-xl-block" alt="" />
+                                <img src="/assets/img/resume/portfolio/4_big.jpg" class="d-sm-none" alt="" />
+                            </div>
+
+                            <!-- Desctop -->
+                            <div class="popup__slider__item__info d-none d-xl-block">
+                                <p class="popup__slider__item__info__title">
+                                    Наклейки детские
+                                </p>
+                                <p class="popup__slider__item__info__description">
+                                    Наклейки детские
+                                </p>
+                                <p class="popup__slider__item__info__cost">
+                                    500 ₽
+                                </p>
+                            </div>
+
+                            <!-- Mobile -->
+                            <div class="popup__slider__item__info d-sm-none">
+                                <p class="popup__slider__item__info__cost">
+                                    500 ₽
+                                </p>
+                                <p class="popup__slider__item__info__title">
+                                    Наклейки детские
+                                </p>
+                            </div>
+                        </div>
+                        <!--  -->
+
+                        <div class="popup__slider__item" data-hash="two">
+                            <div class="popup__slider__item__img">
+                                <img src="/assets/img/resume/portfolio/2.jpg" class="d-none d-xl-block" alt="" />
+                                <img src="/assets/img/resume/portfolio/4_big.jpg" class="d-sm-none" alt="" />
+                            </div>
+
+                            <!-- Desctop -->
+                            <div class="popup__slider__item__info d-none d-xl-block">
+                                <p class="popup__slider__item__info__title">
+                                    Наклейки детские
+                                </p>
+                                <p class="popup__slider__item__info__description">
+                                    Наклейки детские
+                                </p>
+                                <p class="popup__slider__item__info__cost">
+                                    500 ₽
+                                </p>
+                            </div>
+
+                            <!-- Mobile -->
+                            <div class="popup__slider__item__info d-sm-none">
+                                <p class="popup__slider__item__info__cost">
+                                    500 ₽
+                                </p>
+                                <p class="popup__slider__item__info__title">
+                                    Наклейки детские
+                                </p>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="popup__slider__item" data-hash="three">
+                            <div class="popup__slider__item__img">
+                                <img src="/assets/img/resume/portfolio/3.jpg" class="d-none d-xl-block" alt="" />
+                                <img src="/assets/img/resume/portfolio/4_big.jpg" class="d-sm-none" alt="" />
+                            </div>
+
+                            <!-- Desctop -->
+                            <div class="popup__slider__item__info d-none d-xl-block">
+                                <p class="popup__slider__item__info__title">
+                                    Наклейки детские
+                                </p>
+                                <p class="popup__slider__item__info__description">
+                                    Наклейки детские
+                                </p>
+                                <p class="popup__slider__item__info__cost">
+                                    500 ₽
+                                </p>
+                            </div>
+
+                            <!-- Mobile -->
+                            <div class="popup__slider__item__info d-sm-none">
+                                <p class="popup__slider__item__info__cost">
+                                    500 ₽
+                                </p>
+                                <p class="popup__slider__item__info__title">
+                                    Наклейки детские
+                                </p>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="popup__slider__item" data-hash="four">
+                            <div class="popup__slider__item__img">
+                                <img src="/assets/img/resume/portfolio/4.jpg" class="d-none d-xl-block" alt="" />
+                                <img src="/assets/img/resume/portfolio/4_big.jpg" class="d-sm-none" alt="" />
+                            </div>
+
+                            <!-- Desctop -->
+                            <div class="popup__slider__item__info d-none d-xl-block">
+                                <p class="popup__slider__item__info__title">
+                                    Наклейки детские
+                                </p>
+                                <p class="popup__slider__item__info__description">
+                                    Наклейки детские
+                                </p>
+                                <p class="popup__slider__item__info__cost">
+                                    500 ₽
+                                </p>
+                            </div>
+
+                            <!-- Mobile -->
+                            <div class="popup__slider__item__info d-sm-none">
+                                <p class="popup__slider__item__info__cost">
+                                    500 ₽
+                                </p>
+                                <p class="popup__slider__item__info__title">
+                                    Наклейки детские
+                                </p>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="popup__slider__item" data-hash="five">
+                            <div class="popup__slider__item__img">
+                                <img src="/assets/img/resume/portfolio/5.jpg" class="d-none d-xl-block" alt="" />
+                                <img src="/assets/img/resume/portfolio/4_big.jpg" class="d-sm-none" alt="" />
+                            </div>
+
+                            <!-- Desctop -->
+                            <div class="popup__slider__item__info d-none d-xl-block">
+                                <p class="popup__slider__item__info__title">
+                                    Наклейки детские
+                                </p>
+                                <p class="popup__slider__item__info__description">
+                                    Наклейки детские
+                                </p>
+                                <p class="popup__slider__item__info__cost">
+                                    500 ₽
+                                </p>
+                            </div>
+
+                            <!-- Mobile -->
+                            <div class="popup__slider__item__info d-sm-none">
+                                <p class="popup__slider__item__info__cost">
+                                    500 ₽
+                                </p>
+                                <p class="popup__slider__item__info__title">
+                                    Наклейки детские
+                                </p>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="popup__slider__item" data-hash="six">
+                            <div class="popup__slider__item__img">
+                                <img src="/assets/img/resume/portfolio/6.jpg" class="d-none d-xl-block" alt="" />
+                                <img src="/assets/img/resume/portfolio/4_big.jpg" class="d-sm-none" alt="" />
+                            </div>
+
+                            <!-- Desctop -->
+                            <div class="popup__slider__item__info d-none d-xl-block">
+                                <p class="popup__slider__item__info__title">
+                                    Наклейки детские
+                                </p>
+                                <p class="popup__slider__item__info__description">
+                                    Наклейки детские
+                                </p>
+                                <p class="popup__slider__item__info__cost">
+                                    500 ₽
+                                </p>
+                            </div>
+
+                            <!-- Mobile -->
+                            <div class="popup__slider__item__info d-sm-none">
+                                <p class="popup__slider__item__info__cost">
+                                    500 ₽
+                                </p>
+                                <p class="popup__slider__item__info__title">
+                                    Наклейки детские
+                                </p>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="popup__slider__item" data-hash="seven">
+                            <div class="popup__slider__item__img">
+                                <img src="/assets/img/resume/portfolio/7.jpg" class="d-none d-xl-block" alt="" />
+                                <img src="/assets/img/resume/portfolio/4_big.jpg" class="d-sm-none" alt="" />
+                            </div>
+
+                            <!-- Desctop -->
+                            <div class="popup__slider__item__info d-none d-xl-block">
+                                <p class="popup__slider__item__info__title">
+                                    Наклейки детские
+                                </p>
+                                <p class="popup__slider__item__info__description">
+                                    Наклейки детские
+                                </p>
+                                <p class="popup__slider__item__info__cost">
+                                    500 ₽
+                                </p>
+                            </div>
+
+                            <!-- Mobile -->
+                            <div class="popup__slider__item__info d-sm-none">
+                                <p class="popup__slider__item__info__cost">
+                                    500 ₽
+                                </p>
+                                <p class="popup__slider__item__info__title">
+                                    Наклейки детские
+                                </p>
+                            </div>
+                        </div>
+                        <!--  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-header d-sm-none">
+            <div class="mobile-header-content">
+                <!-- * -->
+                <a href="#" class="mobile-header-content-back">
+                    <img src="/assets/img/resume/arrow.svg" alt="Назад" class="mobile-header-content-back__icon" />
+                </a>
+                <!-- * -->
+
+                <!-- * -->
+                <div class="mobile-header-content-middle">
+                    <div class="mobile-header-content-middle__avatar">
+                        <img src="/assets/img/resume/avatar.jpg" class="mobile-header-content-middle__avatar__img" />
+                    </div>
+                    <div class="mobile-header-content-middle__text">
+                        <span class="mobile-header-content-middle__text__title">Комкова Екатерина</span>
+                        <span class="mobile-header-content-middle__text__description">Художник-костюмер</span>
+                    </div>
+                </div>
+                <!-- * -->
+
+                <!-- * -->
+                <div class="resume-main-header__right d-sm-none">
+                    <div class="resume-main-header__add">
+                        <a class="resume-main-header__add__item notice-btn">
+                            <img src="/assets/img/resume/file.svg" title="Добавить заметку" alt="Заметка" />
+                        </a>
+                        <a class="resume-main-header__add__item" href="#">
+                            <img src="/assets/img/resume/download.svg" title="Скачать резюме" alt="Скачать" />
+                        </a>
+                        <a class="resume-main-header__add__item mobile-header-content--sticked__remove" href="#">
+                            <img src="/assets/img/resume/print.svg" title="Распечатать резюме" alt="Печатать" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-footer d-sm-none">
+            <div class="mobile-footer-content">
+                <!-- * Mobile Header Actions  -->
+                <div class="resume-sidebar-header-action resume-sidebar-header-action--mobile">
+                    <div class="resume-sidebar-header-action-button">
+                        <div class="resume-sidebar-header-action-button__button">
+                            <a href="#" class="resume-sidebar-header-action-button__button__link">
+                                <span class="resume-sidebar-header-action-button__button__link__text">Предложить вакансию</span>
+                                <span class="resume-sidebar-header-action-button__button__link__icon">
+                                    <img src="/assets/img/resume/check.svg" />
+                                </span>
+                            </a>
+                        </div>
+                        <div class="resume-sidebar-header-action-button__button__favorite">
+                            <a id="favoriteMobileBottom" class="resume-sidebar-header-action-button__button__favorite__link">
+                                <svg width="20" height="17" viewBox="0 0 20 15" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.43571 2.5113L10 3.15581L10.5643 2.5113C11.4372 1.51427 12.7849 0.877686 14.1829 0.877686C16.6514 0.877686 18.5454 2.7493 18.5454 5.10023C18.5454 6.55573 17.8793 7.93861 16.5428 9.5279C15.1983 11.1266 13.2607 12.8373 10.8517 14.962L10.8506 14.963L9.99811 15.7178L9.14886 14.9716C9.14861 14.9713 9.14835 14.9711 9.1481 14.9709C6.73931 12.8418 4.80186 11.1291 3.4574 9.52922C2.12073 7.93865 1.45462 6.55574 1.45462 5.10023C1.45462 2.7493 3.34856 0.877686 5.81708 0.877686C7.21505 0.877686 8.56279 1.51427 9.43571 2.5113Z" stroke-width="1.5" />
+                                </svg>
+                            </a>
+                        </div>
+                        <!--  -->
+                    </div>
+                </div>
+                <!-- * Mobile Header Actions END -->
+            </div>
+        </div>
+
+        <div class="mobile-dropdown d-sm-none">
+            <div class="mobile-dropdown-content">
+                <!--  -->
+                <div class="resume-sidebar-header-action-button-dropdown">
+                    <ul class="resume-sidebar-header-action-button-dropdown-list">
+                        <li class="resume-sidebar-header-action-button-dropdown-list__item">
+                            <a href="#">
+                                <span class="resume-sidebar-header-action-button-dropdown-list__item__icon">
+                                    <img src="/assets/img/resume/sidebar-dropdown-icons/clock.svg" />
+                                </span>
+                                <span class="resume-sidebar-header-action-button-dropdown-list__item__title">Подумать</span>
+                            </a>
+                        </li>
+
+                        <li class="resume-sidebar-header-action-button-dropdown-list__item">
+                            <a href="#">
+                                <span class="resume-sidebar-header-action-button-dropdown-list__item__icon">
+                                    <img src="/assets/img/resume/sidebar-dropdown-icons/video.svg" />
+                                </span>
+                                <span class="resume-sidebar-header-action-button-dropdown-list__item__title">Видеособеседование</span>
+                            </a>
+                        </li>
+
+                        <li class="resume-sidebar-header-action-button-dropdown-list__item">
+                            <a href="#">
+                                <span class="resume-sidebar-header-action-button-dropdown-list__item__icon">
+                                    <img src="/assets/img/resume/sidebar-dropdown-icons/office.svg" />
+                                </span>
+                                <span class="resume-sidebar-header-action-button-dropdown-list__item__title">Интервью в офисе</span>
+                            </a>
+                        </li>
+
+                        <li class="resume-sidebar-header-action-button-dropdown-list__item">
+                            <a href="#">
+                                <span class="resume-sidebar-header-action-button-dropdown-list__item__icon">
+                                    <img src="/assets/img/resume/sidebar-dropdown-icons/phone.svg" />
+                                </span>
+                                <span class="resume-sidebar-header-action-button-dropdown-list__item__title">Телефонное интервью</span>
+                            </a>
+                        </li>
+
+                        <li class="resume-sidebar-header-action-button-dropdown-list__item">
+                            <a href="#">
+                                <span class="resume-sidebar-header-action-button-dropdown-list__item__icon">
+                                    <img src="/assets/img/resume/sidebar-dropdown-icons/test.png" />
+                                </span>
+                                <span class="resume-sidebar-header-action-button-dropdown-list__item__title">Тестовое задание</span>
+                            </a>
+                        </li>
+
+                        <li class="resume-sidebar-header-action-button-dropdown-list__item">
+                            <a href="#">
+                                <span class="resume-sidebar-header-action-button-dropdown-list__item__icon">
+                                    <img src="/assets/img/resume/sidebar-dropdown-icons/offer.svg" />
+                                </span>
+                                <span class="resume-sidebar-header-action-button-dropdown-list__item__title">Предложение о работе</span>
+                            </a>
+                        </li>
+
+                        <li class="resume-sidebar-header-action-button-dropdown-list__item">
+                            <a href="#">
+                                <span class="resume-sidebar-header-action-button-dropdown-list__item__icon">
+                                    <img src="/assets/img/resume/sidebar-dropdown-icons/case.svg" />
+                                </span>
+                                <span class="resume-sidebar-header-action-button-dropdown-list__item__title">Выход на работу</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mobile-dropdown-content__close">
+                    <a href="#">
+                        <span class="resume-sidebar-header-action-button-dropdown-list__item__title">Отмена</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <main class="wrapper">
+            <section>
+                <!--  id="resume" -->
+                <div class="container resume">
+                    <div class="row">
+                        <!-- Left Side -->
+                        <div class="col-xl-8 col-sm-12 resume-main">
+                            <!-- Header -->
+                            <div class="resume-main-header">
+                                <div class="resume-main-header__left">
+                                    <div class="resume-main-header__avatar resume-main-header__avatar--isOnline">
+                                        <div class="resume-main-header__avatar__img">
+                                            <img src="/assets/img/resume/avatar.jpg" alt="Комкова Екатерина | Художник-костюмер" />
+                                        </div>
+                                    </div>
+                                    <div class="resume-main-header__title">
+                                        <h1 class="resume-main-header__title__name">
+                                            Комкова Екатерина
+                                        </h1>
+                                        <p class="resume-main-header__title__info">
+                                            <span class="resume-main-header__title__icon resume-main-header__title__icon--gender_w"></span>
+                                            32 года, Санкт-Петербург, ст. м. Маяковская
+                                        </p>
+                                        <p class="resume-main-header__title__update">
+                                            <span class="resume-main-header__title__icon resume-main-header__title__icon--date"></span>
+                                            <span>Обновлено <span class="resume-main-header__title__update--date">4 мая 2021 в 7:39</span></span>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- * Mobile Header Actions  -->
+                                <div class="resume-sidebar-header-action resume-sidebar-header-action--mobile d-sm-none">
+                                    <div class="resume-sidebar-header-action-button">
+                                        <div class="resume-sidebar-header-action-button__button">
+                                            <a href="#" class="resume-sidebar-header-action-button__button__link">
+                                                <span class="resume-sidebar-header-action-button__button__link__text">Предложить вакансию</span>
+                                                <span class="resume-sidebar-header-action-button__button__link__icon">
+                                                    <img src="/assets/img/resume/check.svg" />
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="resume-sidebar-header-action-button__button__favorite">
+                                            <a id="favoriteMobile" class="resume-sidebar-header-action-button__button__favorite__link">
+                                                <svg width="20" height="17" viewBox="0 0 20 15" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M9.43571 2.5113L10 3.15581L10.5643 2.5113C11.4372 1.51427 12.7849 0.877686 14.1829 0.877686C16.6514 0.877686 18.5454 2.7493 18.5454 5.10023C18.5454 6.55573 17.8793 7.93861 16.5428 9.5279C15.1983 11.1266 13.2607 12.8373 10.8517 14.962L10.8506 14.963L9.99811 15.7178L9.14886 14.9716C9.14861 14.9713 9.14835 14.9711 9.1481 14.9709C6.73931 12.8418 4.80186 11.1291 3.4574 9.52922C2.12073 7.93865 1.45462 6.55574 1.45462 5.10023C1.45462 2.7493 3.34856 0.877686 5.81708 0.877686C7.21505 0.877686 8.56279 1.51427 9.43571 2.5113Z" stroke-width="1.5" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- * Mobile Header Actions END -->
+
+                                <!-- * Mobile Header Video -->
+                                <div class="resume-sidebar-header-video resume-sidebar-header-video--mobile d-sm-none">
+                                    <div class="resume-sidebar-header-video-block">
+                                        <div class="resume-sidebar-header-video-block-img">
+                                            <img src="/assets/img/resume/video.svg" />
+                                        </div>
+                                        <div class="resume-sidebar-header-video-block-info">
+                                            <span class="resume-sidebar-header-video-block-info__title">
+                                                Видеособеседование
+                                            </span>
+                                            <span class="resume-sidebar-header-video-block-info__description">
+                                                Пригласите кандидата пройти собеседование онлайн
+                                            </span>
+                                        </div>
+                                        <div class="resume-sidebar-header-video-block-icon">
+                                            <a href="#" class="resume-sidebar-header-video-block-icon__icon">
+                                                <img src="/assets/img/resume/arrow.svg" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- * Mobile Header Video END -->
+
+                                <!-- * -->
+                                <div class="resume-main-header__right d-xl-block d-none">
+                                    <div class="resume-main-header__add">
+                                        <a class="resume-main-header__add__item notice-btn" href="#">
+                                            <img src="/assets/img/resume/file.svg" title="Добавить заметку" alt="Заметка" />
+                                        </a>
+                                        <a class="resume-main-header__add__item" href="#">
+                                            <img src="/assets/img/resume/download.svg" title="Скачать резюме" alt="Скачать" />
+                                        </a>
+                                        <a class="resume-main-header__add__item" href="#">
+                                            <img src="/assets/img/resume/print.svg" title="Распечатать резюме" alt="Печатать" />
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- * -->
+                            </div>
+                            <!-- Header End -->
+
+                            <!-- About Person -->
+
+                            <div class="resume-main-about">
+                                <div class="resume-main-about-top">
+                                    <h2 class="resume-main-about-top__title">Художник-костюмер</h2>
+                                    <p class="resume-main-about-top-mobile__price d-sm-none">55 000 ₽</p>
+                                    <h3 class="resume-main-about-top__subtitle">Искусство, развлечения, масс-медиа</h3>
+                                    <ul class="resume-main-about-top__proflist">
+                                        <li class="resume-main-about-top__proflist__item">Дизайн, графика, живопись</li>
+                                        <li class="resume-main-about-top__proflist__item">Корректор, ретушер</li>
+                                        <li class="resume-main-about-top__proflist__item">Фотография</li>
+                                    </ul>
+                                    <div class="resume-main-about-top__other">
+                                        <div class="resume-main-about-top__other__item">
+                                            <div class="resume-main-about-top__other__item__title">Занятость</div>
+                                            <div class="resume-main-about-top__other__item__text">Полная занятость, Временная работа</div>
+                                        </div>
+                                        <div class="resume-main-about-top__other__item">
+                                            <div class="resume-main-about-top__other__item__title">График работы</div>
+                                            <div class="resume-main-about-top__other__item__text">Полный день, Гибкий график, Удаленная работа</div>
+                                        </div>
+                                        <div class="resume-main-about-top__other__item">
+                                            <div class="resume-main-about-top__other__item__title">Готовность к переезду</div>
+                                            <div class="resume-main-about-top__other__item__text">Москва, Воркута, Челябинск</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="resume-main-about-item__hr"><span>Опыт работы:</span> <b>2 года 5 месяцев</b></div>
+
+                                <div class="resume-main-about-item">
+                                    <!--  -->
+                                    <div class="resume-main-about-item-body">
+                                        <div class="resume-main-about-item-timeline">
+                                            <div class="resume-main-about-item-timeline__title">
+                                                <span class="resume-main-about-item-timeline__title__date">Май 2013 — Ноябрь 2020</span>
+                                                <span class="resume-main-about-item-timeline__title__years">1 год 9 месяцев</span>
+                                            </div>
+                                        </div>
+                                        <div class="resume-main-about-item-body__header">
+                                            <div class="resume-main-about-item-body__name">
+                                                <p class="resume-main-about-item-body__name__title">
+                                                    <span class="resume-main-about-item-body__name__title__icon">
+                                                        <img src="/assets/img/resume/corp.svg" alt="Компания:" />
+                                                    </span>
+                                                    Лента, федеральная розничная сеть
+                                                </p>
+                                                <a class="resume-main-about-item-body__name__link" href="https://lenta.ru" target="_blank">www.lenta.ru</a>
+                                            </div>
+                                            <div class="resume-main-about-item-body__name">
+                                                <p class="resume-main-about-item-body__name__title">
+                                                    <span class="resume-main-about-item-body__name__title__icon">
+                                                        <img src="/assets/img/resume/job.svg" alt="Должность:" />
+                                                    </span>
+                                                    Менеджер по экономической безопасности
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <!--  -->
+                                        <div class="resume-main-about-item-body__main">
+                                            <div class="resume-main-about-item-body__name resume-main-about-item-body__name-main">
+                                                <p class="resume-main-about-item-body__name__title resume-main-about-item-body__name__title-main">
+                                                    Обязанности
+                                                </p>
+                                            </div>
+                                            <div class="resume-main-about-item-body__dropdown">
+                                                <ul class="resume-main-about-item-body__dropdown__list resume-main-about-item-body__dropdown__list--active">
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Работа с лидами
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Проведение презентаций
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Поддержка кодовой базы системы платежных терминалов, включающей POS
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        интерфейс пользователя, драйвера устройств, приложение мониторинга и SQL базу данных:
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Исправление багов;
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Внедрение поддержки новых устройств в т.ч. написание несколько драйверов для специфического оборудования, используя спецификации;
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Изменение внутреннего сетевого протокола приложения для интеграции с обновленным платежным шлюзом;
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Сбор и анализ статистики работы сети терминалов для оценки эффективности отдельных точек оплаты;
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Обработка пользовательских отзывов и предложений;
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Сборка дистрибутивов обновленний ПО;
+                                                    </li>
+                                                </ul>
+                                                <div class="resume-main-about-item-body__dropdown__button">
+                                                    <span class="resume-main-about-item-body__dropdown__button__link">Скрыть</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--  -->
+
+                                        <div class="resume-main-about-item-body__main">
+                                            <div class="resume-main-about-item-body__name">
+                                                <p class="resume-main-about-item-body__name__title">
+                                                    Достижения
+                                                </p>
+                                            </div>
+                                            <div class="resume-main-about-item-body__dropdown">
+                                                <ul class="resume-main-about-item-body__dropdown__list">
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Работа с лидами
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Проведение презентаций
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Поддержка кодовой базы системы платежных терминалов, включающей POS
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        интерфейс пользователя, драйвера устройств, приложение мониторинга и SQL базу данных:
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Исправление багов;
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Внедрение поддержки новых устройств в т.ч. написание несколько драйверов для специфического оборудования, используя спецификации;
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Изменение внутреннего сетевого протокола приложения для интеграции с обновленным платежным шлюзом;
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Сбор и анализ статистики работы сети терминалов для оценки эффективности отдельных точек оплаты;
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Обработка пользовательских отзывов и предложений;
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Сборка дистрибутивов обновленний ПО;
+                                                    </li>
+                                                </ul>
+                                                <div class="resume-main-about-item-body__dropdown__button">
+                                                    <span class="resume-main-about-item-body__dropdown__button__link">Показать полностью...</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--  -->
+
+                                        <div class="resume-main-about-item-body__main">
+                                            <div class="resume-main-about-item-body__name">
+                                                <p class="resume-main-about-item-body__name__title">
+                                                    Причины ухода
+                                                </p>
+                                            </div>
+                                            <div class="resume-main-about-item-body__dropdown">
+                                                <ul class="resume-main-about-item-body__dropdown__list">
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Работа с лидами
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Проведение презентаций
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Поддержка кодовой базы системы платежных терминалов, включающей POS
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        интерфейс пользователя, драйвера устройств, приложение мониторинга и SQL базу данных:
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Исправление багов;
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Внедрение поддержки новых устройств в т.ч. написание несколько драйверов для специфического оборудования, используя спецификации;
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Изменение внутреннего сетевого протокола приложения для интеграции с обновленным платежным шлюзом;
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Сбор и анализ статистики работы сети терминалов для оценки эффективности отдельных точек оплаты;
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Обработка пользовательских отзывов и предложений;
+                                                    </li>
+                                                    <li class="resume-main-about-item-body__dropdown__list__item">
+                                                        Сборка дистрибутивов обновленний ПО;
+                                                    </li>
+                                                </ul>
+                                                <div class="resume-main-about-item-body__dropdown__button">
+                                                    <span class="resume-main-about-item-body__dropdown__button__link">Показать полностью...</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="resume-main-about-item__hr"><span>Портфолио</span></div>
+
+                                <div class="resume-main-about-portfolio">
+                                    <div class="resume-main-about-portfolio__slider">
+                                        <div class="owl-carousel slide-one">
+                                            <!--  -->
+                                            <div class="resume-main-about-portfolio__slider__item">
+                                                <a href="#one" class="resume-main-about-portfolio__slider__item__link">
+                                                    <img src="/assets/img/resume/portfolio/1.jpg" alt="" />
+                                                </a>
+                                            </div>
+                                            <!--  -->
+                                            <div class="resume-main-about-portfolio__slider__item">
+                                                <a href="#two" class="resume-main-about-portfolio__slider__item__link">
+                                                    <img src="/assets/img/resume/portfolio/2.jpg" alt="" />
+                                                </a>
+                                            </div>
+                                            <!--  -->
+                                            <div class="resume-main-about-portfolio__slider__item">
+                                                <a href="#three" class="resume-main-about-portfolio__slider__item__link">
+                                                    <img src="/assets/img/resume/portfolio/3.jpg" alt="" />
+                                                </a>
+                                            </div>
+                                            <!--  -->
+                                            <div class="resume-main-about-portfolio__slider__item">
+                                                <a href="#four" class="resume-main-about-portfolio__slider__item__link">
+                                                    <img src="/assets/img/resume/portfolio/4.jpg" alt="" />
+                                                </a>
+                                            </div>
+                                            <!--  -->
+                                            <div class="resume-main-about-portfolio__slider__item">
+                                                <a href="#five" class="resume-main-about-portfolio__slider__item__link">
+                                                    <img src="/assets/img/resume/portfolio/5.jpg" alt="" />
+                                                </a>
+                                            </div>
+                                            <!--  -->
+                                            <div class="resume-main-about-portfolio__slider__item">
+                                                <a href="#six" class="resume-main-about-portfolio__slider__item__link">
+                                                    <img src="/assets/img/resume/portfolio/6.jpg" alt="" />
+                                                </a>
+                                            </div>
+                                            <!--  -->
+                                            <div class="resume-main-about-portfolio__slider__item">
+                                                <a href="#seven" class="resume-main-about-portfolio__slider__item__link">
+                                                    <img src="/assets/img/resume/portfolio/7.jpg" alt="" />
+                                                </a>
+                                            </div>
+                                            <!--  -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Left Side End -->
+
+                        <!-- Right Sidebar-->
+
+                        <aside class="col-xl-4 resume-sidebar">
+                            <div class="resume-sidebar-header">
+                                <!-- * -->
+                                <div class="resume-sidebar-header-top d-none d-xl-flex">
+                                    <div class="resume-sidebar-header-top__cost">
+                                        <span>55 000</span>
+                                        <span>₽</span>
+                                    </div>
+                                    <div class="resume-sidebar-header-top__more">
+                                        <span class="resume-sidebar-header-top__more__icon"></span>
+                                    </div>
+                                </div>
+                                <!-- * -->
+                                <div class="resume-sidebar-header-action d-none d-xl-flex">
+                                    <div class="resume-sidebar-header-action-button">
+                                        <div class="resume-sidebar-header-action-button__button">
+                                            <a href="#" class="resume-sidebar-header-action-button__button__link">
+                                                <span class="resume-sidebar-header-action-button__button__link__text">Предложить вакансию</span>
+                                                <span class="resume-sidebar-header-action-button__button__link__icon">
+                                                    <img src="/assets/img/resume/check.svg" />
+                                                </span>
+                                            </a>
+
+                                            <!--  -->
+                                            <div class="resume-sidebar-header-action-button-dropdown">
+                                                <ul class="resume-sidebar-header-action-button-dropdown-list">
+                                                    <li class="resume-sidebar-header-action-button-dropdown-list__item">
+                                                        <a href="#">
+                                                            <span class="resume-sidebar-header-action-button-dropdown-list__item__icon">
+                                                                <img src="/assets/img/resume/sidebar-dropdown-icons/clock.svg" />
+                                                            </span>
+                                                            <span class="resume-sidebar-header-action-button-dropdown-list__item__title">Подумать</span>
+                                                        </a>
+                                                    </li>
+
+                                                    <li class="resume-sidebar-header-action-button-dropdown-list__item">
+                                                        <a href="#">
+                                                            <span class="resume-sidebar-header-action-button-dropdown-list__item__icon">
+                                                                <img src="/assets/img/resume/sidebar-dropdown-icons/video.svg" />
+                                                            </span>
+                                                            <span class="resume-sidebar-header-action-button-dropdown-list__item__title">Видеособеседование</span>
+                                                        </a>
+                                                    </li>
+
+                                                    <li class="resume-sidebar-header-action-button-dropdown-list__item">
+                                                        <a href="#">
+                                                            <span class="resume-sidebar-header-action-button-dropdown-list__item__icon">
+                                                                <img src="/assets/img/resume/sidebar-dropdown-icons/office.svg" />
+                                                            </span>
+                                                            <span class="resume-sidebar-header-action-button-dropdown-list__item__title">Интервью в офисе</span>
+                                                        </a>
+                                                    </li>
+
+                                                    <li class="resume-sidebar-header-action-button-dropdown-list__item">
+                                                        <a href="#">
+                                                            <span class="resume-sidebar-header-action-button-dropdown-list__item__icon">
+                                                                <img src="/assets/img/resume/sidebar-dropdown-icons/phone.svg" />
+                                                            </span>
+                                                            <span class="resume-sidebar-header-action-button-dropdown-list__item__title">Телефонное интервью</span>
+                                                        </a>
+                                                    </li>
+
+                                                    <li class="resume-sidebar-header-action-button-dropdown-list__item">
+                                                        <a href="#">
+                                                            <span class="resume-sidebar-header-action-button-dropdown-list__item__icon">
+                                                                <img src="/assets/img/resume/sidebar-dropdown-icons/test.png" />
+                                                            </span>
+                                                            <span class="resume-sidebar-header-action-button-dropdown-list__item__title">Тестовое задание</span>
+                                                        </a>
+                                                    </li>
+
+                                                    <li class="resume-sidebar-header-action-button-dropdown-list__item">
+                                                        <a href="#">
+                                                            <span class="resume-sidebar-header-action-button-dropdown-list__item__icon">
+                                                                <img src="/assets/img/resume/sidebar-dropdown-icons/offer.svg" />
+                                                            </span>
+                                                            <span class="resume-sidebar-header-action-button-dropdown-list__item__title">Предложение о работе</span>
+                                                        </a>
+                                                    </li>
+
+                                                    <li class="resume-sidebar-header-action-button-dropdown-list__item">
+                                                        <a href="#">
+                                                            <span class="resume-sidebar-header-action-button-dropdown-list__item__icon">
+                                                                <img src="/assets/img/resume/sidebar-dropdown-icons/case.svg" />
+                                                            </span>
+                                                            <span class="resume-sidebar-header-action-button-dropdown-list__item__title">Выход на работу</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="resume-sidebar-header-action-button__button__favorite">
+                                            <a id="favorite" class="resume-sidebar-header-action-button__button__favorite__link">
+                                                <svg width="20" height="17" viewBox="0 0 20 15" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M9.43571 2.5113L10 3.15581L10.5643 2.5113C11.4372 1.51427 12.7849 0.877686 14.1829 0.877686C16.6514 0.877686 18.5454 2.7493 18.5454 5.10023C18.5454 6.55573 17.8793 7.93861 16.5428 9.5279C15.1983 11.1266 13.2607 12.8373 10.8517 14.962L10.8506 14.963L9.99811 15.7178L9.14886 14.9716C9.14861 14.9713 9.14835 14.9711 9.1481 14.9709C6.73931 12.8418 4.80186 11.1291 3.4574 9.52922C2.12073 7.93865 1.45462 6.55574 1.45462 5.10023C1.45462 2.7493 3.34856 0.877686 5.81708 0.877686C7.21505 0.877686 8.56279 1.51427 9.43571 2.5113Z" stroke-width="1.5" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- * -->
+                                <div class="resume-sidebar-header-video d-none d-xl-flex">
+                                    <div class="resume-sidebar-header-video-block">
+                                        <div class="resume-sidebar-header-video-block-img">
+                                            <img src="/assets/img/resume/video.svg" />
+                                        </div>
+                                        <div class="resume-sidebar-header-video-block-info">
+                                            <span class="resume-sidebar-header-video-block-info__title">
+                                                Видеособеседование
+                                            </span>
+                                            <span class="resume-sidebar-header-video-block-info__description">
+                                                Пригласите кандидата пройти собеседование онлайн
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- * -->
+                                <div class="resume-sidebar-history">
+                                    <div class="resume-sidebar-history-block">
+                                        <div class="resume-sidebar-history-block-top" id="historyDrop">
+                                            <span class="resume-sidebar-history-block-top__title">
+                                                История откликов
+                                            </span>
+                                            <span class="resume-sidebar-history-block-top__arrow resume-sidebar-history-block-top__arrow--down d-none d-xl-flex">
+                                                <img src="/assets/img/resume/arrow.svg" alt="" />
+                                            </span>
+                                        </div>
+                                        <div class="resume-sidebar-history-block-bottom">
+                                            <div class="resume-sidebar-history-block-bottom-item">
+                                                <div class="resume-sidebar-history-block-bottom-item-date resume-sidebar-history-block-bottom-item-date--video">
+                                                    <div class="resume-sidebar-history-block-bottom-item-date__icon">
+                                                        <img src="/assets/img/resume/sidebar-icons/video-conf.svg" />
+                                                    </div>
+                                                    <span class="resume-sidebar-history-block-bottom-item-date__date">
+                                                        18.01.22
+                                                    </span>
+                                                </div>
+                                                <div class="resume-sidebar-history-block-bottom-item-info">
+                                                    <div class="resume-sidebar-history-block-bottom-item-info__type">
+                                                        Видеособеседование
+                                                    </div>
+                                                    <div class="resume-sidebar-history-block-bottom-item-info__vacancy">
+                                                        Продавец кассир
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- ? -->
+                                            <div class="resume-sidebar-history-block-bottom-item">
+                                                <div class="resume-sidebar-history-block-bottom-item-date resume-sidebar-history-block-bottom-item-date--offer">
+                                                    <div class="resume-sidebar-history-block-bottom-item-date__icon">
+                                                        <img src="/assets/img/resume/sidebar-icons/offer.svg" />
+                                                    </div>
+                                                    <span class="resume-sidebar-history-block-bottom-item-date__date">
+                                                        18.01.22
+                                                    </span>
+                                                </div>
+                                                <div class="resume-sidebar-history-block-bottom-item-info">
+                                                    <div class="resume-sidebar-history-block-bottom-item-info__type">
+                                                        Отклик
+                                                    </div>
+                                                    <div class="resume-sidebar-history-block-bottom-item-info__vacancy">
+                                                        Продавец кассир
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- ? -->
+                                            <div class="resume-sidebar-history-block-bottom-item">
+                                                <div class="resume-sidebar-history-block-bottom-item-date resume-sidebar-history-block-bottom-item-date--phone">
+                                                    <div class="resume-sidebar-history-block-bottom-item-date__icon">
+                                                        <img src="/assets/img/resume/sidebar-icons/phone.svg" />
+                                                    </div>
+                                                    <span class="resume-sidebar-history-block-bottom-item-date__date">
+                                                        18.01.22
+                                                    </span>
+                                                </div>
+                                                <div class="resume-sidebar-history-block-bottom-item-info">
+                                                    <div class="resume-sidebar-history-block-bottom-item-info__type">
+                                                        Видеособеседование
+                                                    </div>
+                                                    <div class="resume-sidebar-history-block-bottom-item-info__vacancy">
+                                                        Телефонное интервью
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- * -->
+                                <div class="resume-sidebar-social d-none d-xl-flex">
+                                    <div class="resume-sidebar-social-block">
+                                        <div class="resume-sidebar-social-block-item">
+                                            <a href="https://instagram.com/" target="_blank">
+                                                <img src="/assets/img/resume/sidebar-social/inst.svg" alt="https://instagram.com/" />
+                                            </a>
+                                        </div>
+                                        <div class="resume-sidebar-social-block-item">
+                                            <a href="https://youtube.com/" target="_blank">
+                                                <img src="/assets/img/resume/sidebar-social/yt.svg" alt="https://youtube.com/" />
+                                            </a>
+                                        </div>
+                                        <div class="resume-sidebar-social-block-item">
+                                            <a href="https://vk.com/" target="_blank">
+                                                <img src="/assets/img/resume/sidebar-social/vk.svg" alt="https://vk.com/" />
+                                            </a>
+                                        </div>
+                                        <div class="resume-sidebar-social-block-item">
+                                            <a href="https://facebook.com/" target="_blank">
+                                                <img src="/assets/img/resume/sidebar-social/fb.svg" alt="https://facebook.com/" />
+                                            </a>
+                                        </div>
+                                        <div class="resume-sidebar-social-block-item">
+                                            <a href="https://telegram.org/" target="_blank">
+                                                <img src="/assets/img/resume/sidebar-social/tg.svg" alt="https://telegram.org/" />
+                                            </a>
+                                        </div>
+                                        <div class="resume-sidebar-social-block-item">
+                                            <a href="https://twitter.com/" target="_blank">
+                                                <img src="/assets/img/resume/sidebar-social/twitter.svg" alt="https://twitter.com/" />
+                                            </a>
+                                        </div>
+                                        <div class="resume-sidebar-social-block-item">
+                                            <a href="https://ok.ru/" target="_blank">
+                                                <img src="/assets/img/resume/sidebar-social/ok.svg" alt="https://ok.ru/" />
+                                            </a>
+                                        </div>
+                                        <div class="resume-sidebar-social-block-item">
+                                            <a href="https://tiktok.com/" target="_blank">
+                                                <img src="/assets/img/resume/sidebar-social/tt.svg" alt="https://tiktok.com/" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+
+        <script src="assets/js/scripts.js"></script>
+    </body>
+</html>
