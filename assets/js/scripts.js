@@ -116,7 +116,7 @@ $(document).ready(function () {
         items: 1,
         // animateOut: "fadeOut",
         smartSpeed: 100,
-        nav: false,
+        nav: true,
         dots: false,
         loop: false,
         center: true,
