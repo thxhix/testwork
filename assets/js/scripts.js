@@ -111,17 +111,39 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+    var owl;
     $(".slide-two").owlCarousel({
         items: 1,
-        animateOut: "fadeOut",
-        nav: true,
-        // autoHeight: true,
+        // animateOut: "fadeOut",
+        smartSpeed: 100,
+        nav: false,
         dots: false,
-        loop: true,
+        loop: false,
         center: true,
-        margin: 10,
+        margin: 0,
         URLhashListener: true,
+        onTranslated: pickNumber,
+        onInitialized: init,
     });
+
+    function init(e) {
+        var count = e.item.count;
+        var spanAll = $("#slideTwoCounterAll");
+        spanAll.html(count);
+    }
+
+    function pickNumber(e) {
+        var element = e.target;
+        var count = e.item.count;
+
+        var spanCount = $("#slideTwoCounter");
+        var spanAll = $("#slideTwoCounterAll");
+
+        var i = $(element).find(".active").find(".popup__slider__item").attr("data-index");
+
+        spanCount.html(i);
+        spanAll.html(count);
+    }
 
     var slideTwoHash = $(".resume-main-about-portfolio__slider__item__link");
     var slideTwoPopup = $("#popup-slider");
